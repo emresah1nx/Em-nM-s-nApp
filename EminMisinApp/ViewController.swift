@@ -8,10 +8,12 @@
 import UIKit
 
 class ViewController: UIViewController {
+    var kelime = KelimeModel(kelime: "Doğru", kelime2:  "Yanlış")
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
+        
     }
 
 

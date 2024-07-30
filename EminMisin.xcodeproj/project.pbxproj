@@ -13,6 +13,8 @@
 		0F49BFF22BAB0388006BB913 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F49BFF02BAB0388006BB913 /* Main.storyboard */; };
 		0F49BFF42BAB038A006BB913 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F49BFF32BAB038A006BB913 /* Assets.xcassets */; };
 		0F49BFF72BAB038A006BB913 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F49BFF52BAB038A006BB913 /* LaunchScreen.storyboard */; };
+		0FD12DCF2C5985FD00BFE1AD /* KelimeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD12DCE2C5985FD00BFE1AD /* KelimeModel.swift */; };
+		0FD12DD32C59874A00BFE1AD /* EkranViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD12DD22C59874A00BFE1AD /* EkranViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		0F49BFF32BAB038A006BB913 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F49BFF62BAB038A006BB913 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0F49BFF82BAB038A006BB913 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FD12DCE2C5985FD00BFE1AD /* KelimeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KelimeModel.swift; sourceTree = "<group>"; };
+		0FD12DD22C59874A00BFE1AD /* EkranViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EkranViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +60,25 @@
 		0F49BFE92BAB0388006BB913 /* EminMisin */ = {
 			isa = PBXGroup;
 			children = (
+				0FD12DCD2C5985E600BFE1AD /* Model */,
 				0F49BFEA2BAB0388006BB913 /* AppDelegate.swift */,
 				0F49BFEC2BAB0388006BB913 /* SceneDelegate.swift */,
 				0F49BFEE2BAB0388006BB913 /* ViewController.swift */,
+				0FD12DD22C59874A00BFE1AD /* EkranViewController.swift */,
 				0F49BFF02BAB0388006BB913 /* Main.storyboard */,
 				0F49BFF32BAB038A006BB913 /* Assets.xcassets */,
 				0F49BFF52BAB038A006BB913 /* LaunchScreen.storyboard */,
 				0F49BFF82BAB038A006BB913 /* Info.plist */,
 			);
 			path = EminMisin;
+			sourceTree = "<group>";
+		};
+		0FD12DCD2C5985E600BFE1AD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0FD12DCE2C5985FD00BFE1AD /* KelimeModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FD12DCF2C5985FD00BFE1AD /* KelimeModel.swift in Sources */,
 				0F49BFEF2BAB0388006BB913 /* ViewController.swift in Sources */,
 				0F49BFEB2BAB0388006BB913 /* AppDelegate.swift in Sources */,
+				0FD12DD32C59874A00BFE1AD /* EkranViewController.swift in Sources */,
 				0F49BFED2BAB0388006BB913 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
